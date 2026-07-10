@@ -1,0 +1,47 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+nav {
+    padding: 20px 0;
+    background-color: rgb(205, 205, 233);
+    display: flex;
+    align-items: center;
+}
+
+header nav div img {
+    width: 80%;
+}
+
+header nav div ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav div ul li a {
+    text-decoration: none;
+    color: #575757;
+    font-family: "Arimo", sans-serif;
+}
+
+button{
+    padding: 12px 25px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(102, 102, 197); 
+}
+
+.hero-section{
+background-image: url(../assets/banner.jpg);
+}
