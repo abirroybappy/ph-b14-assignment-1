@@ -26,7 +26,7 @@ header nav div ul li a {
     font-family: "Arimo", sans-serif;
 }
 
-button{
+button {
     padding: 12px 25px;
     font-family: "Inter", sans-serif;
     font-weight: 500;
@@ -37,11 +37,39 @@ button{
     border-radius: 5px;
 }
 
-button:hover{
+button:hover {
     cursor: pointer;
-    background-color: rgb(102, 102, 197); 
+    background-color: rgb(102, 102, 197);
 }
 
-.hero-section{
-background-image: url(../assets/banner.jpg);
+.hero-section {
+    background-image: url(../assets/banner.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero-container {
+    width: 60%;
+    background-color: white;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    padding-top: 10%;
+}
+
+.hero-container>h1 {
+    font-size: 4rem;
+    margin-bottom: 2%;
+}
+
+.hero-container>p {
+    width: 74%;
+}
+
+.hero-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 18%;
+    font-size: 100px;
 }
