@@ -4,6 +4,8 @@
     font-family: "Inter", sans-serif;
 }
 
+/* nav bar start */
+
 nav {
     padding: 20px 0;
     display: flex;
@@ -26,6 +28,9 @@ header nav div ul li a {
     font-family: "Arimo", sans-serif;
 }
 
+/* nav bar end */
+
+/*  button for all */
 button {
     padding: 12px 25px;
     font-weight: 500;
@@ -41,6 +46,7 @@ button:hover {
     background-color: rgb(102, 102, 197);
 }
 
+/* hero section start  */
 .hero-section {
     background-image: url(../assets/banner.jpg);
     background-position: center;
@@ -78,6 +84,10 @@ button:hover {
     margin-bottom: 5%;
 }
 
+/* hero setction end */
+
+/* speaker section start  */
+
 .speaker-section {
     width: 85%;
 }
@@ -95,13 +105,12 @@ button:hover {
 }
 
 .speaker-card:hover {
-    box-shadow: 0 10px 20px rgb(0,0,.1);
+    box-shadow: 0 10px 20px rgb(0, 0, .1);
     transform: translateY(-5px);
-    transition:.7s;
-    cursor:grabbing;
+    transition: .7s;
+    cursor: grabbing;
 
 }
-
 
 .speaker-card img {
     width: 100%;
@@ -127,3 +136,113 @@ button:hover {
     color: #575757;
     font-size: 14px;
 }
+
+/* speaker section end */
+
+/* Pricing section start  */
+.pricing-section {
+    padding-top: 5%;
+}
+
+.pricing-section>p {
+    text-align: center;
+    color: #575757;
+    font-size: 16px;
+    margin-bottom: 2%;
+}
+
+.pricing-card {
+    width: 80%;
+    display: flex;
+
+
+}
+
+.pricing {
+    border: 1px solid rgb(231, 229, 229);
+    width: 280px;
+    padding: 20px 30px;
+    background-color: #F8F9FB;
+    border-radius: 5px;
+}
+
+.pricing:hover {
+     box-shadow: 0 10px 20px rgb(0, 0, .1);
+    transform: translateY(-5px);
+    transition: .7s;
+    cursor:pointer;
+}
+
+
+.pricing>span {
+    font-size: 13px;
+    color: #888888;
+
+}
+
+.pricing>h2 {
+    font-size: 44px;
+    font-weight: 600;
+}
+
+.pricing>small {
+    font-size: 13px;
+    color: #888888;
+}
+
+hr {
+    margin-top: 20px;
+    border: 1px solid #E5E7EB;
+}
+
+.pricing-details {
+    padding: 20px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.pricing-details li::marker {
+    color: #2563EB;
+}
+
+.pro{
+    background-color: #0D1B2A;
+    color: rgb(199, 199, 199);
+}
+ 
+.pro>span{
+    color: #2563EB;
+}
+
+.hr-pro{
+   border: 1px solid   #222222;
+}
+
+.pricing>button {
+    width: 100%;
+    background-color: white;
+    border: 1px solid #2563EB;
+    color: #2563EB;
+}
+
+.pricing>button:hover { 
+    background-color: #2563EB;
+    border: 1px solid white;
+    color: white;
+    transition: .5s;
+}
+
+.pro>button{
+     background-color: #2563EB;
+   color: white;
+}
+
+.pro>button:hover{
+background-color: white;
+    border: 1px solid #2563EB;
+    color: #2563EB;
+    transition: .5s;
+}
+
+/* Pricing section end */
